@@ -1,2 +1,0 @@
--- seed.sql
--- Dados iniciais (config, smarts, etc.)
