@@ -1,0 +1,26 @@
+name = "meu-painel-api"
+main = "src/bot-api/index.ts"
+compatibility_date = "2024-12-18"
+compatibility_flags = ["nodejs_compat"]
+workers_dev = true
+
+# Assets estáticos (pasta /static na raiz do monorepo)
+[assets]
+directory = "../static"
+binding = "ASSETS"
+
+[dev]
+port = 8787
+local_protocol = "http"
+
+# Variáveis não-sensíveis
+[vars]
+AES_KEY = "60170"
+
+[env.production]
+name = "meu-painel-api"
+vars = { AES_KEY = "60170" }
+
+# Secrets (definir via CLI ou .dev.vars):
+#   wrangler secret put SUPABASE_URL
+#   wrangler secret put SUPABASE_ANON_KEY
