@@ -1,4 +1,4 @@
 name = "scale"
-main = "src/index.ts"
+main = "src/bot-api/index.ts"
 compatibility_date = "2024-10-01"
 workers_dev = true
