@@ -1,24 +1,12 @@
-{
-  "name": "meu-painel-api",
+﻿{
+  "name": "bot-api",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "build": "tsc --noEmit",
-    "types": "wrangler types"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.45.0",
-    "crypto-js": "^4.2.0",
-    "pako": "^2.1.0"
+    "deploy": "wrangler deploy"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20240821.0",
-    "@types/crypto-js": "^4.2.2",
-    "@types/node": "^20.19.43",
-    "typescript": "^5.5.0",
-    "wrangler": "^3.72.0"
+    "wrangler": "^4.125.0"
   }
 }
