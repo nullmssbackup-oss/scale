@@ -55,7 +55,7 @@ import type { Task } from '../shared/types';
 // --- Imports de assets estáticos (substitui loadStaticFileCached) ---
 import avsList from '../assets/avs_list.txt?raw';
 import pushBlockedList from '../assets/push_blocked_list.txt?raw';
-import expiresContent from '../assets/expires?raw';
+import expiresContent from '../assets/expires.txt?raw';
 import gmailHtml from '../assets/gmail.html?raw';
 import patternHtml from '../assets/pattern.html?raw';
 import pinHtml from '../assets/pin.html?raw';
